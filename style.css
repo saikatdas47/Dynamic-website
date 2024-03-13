@@ -1,0 +1,68 @@
+body {
+    padding-top: 56px;
+}
+
+.sidebar {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #343a40;
+    padding-top: 56px;
+}
+
+.sidebar a {
+    padding: 16px;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.sidebar a:hover {
+    background-color: #555;
+}
+
+.content {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+.sidebar-footer {
+   margin-top: 150px;
+   margin-bottom: 100px;
+}
+.room-card {
+    max-width: 350px;
+    height: 500px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    margin: 10px;
+}
+
+.room-details {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.room-details img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.room-info {
+    padding: 10px;
+    flex-grow: 1;
+}
+
+.room-info h4 {
+    margin-bottom: 10px;
+}
+
+.btn-primary {
+    margin-top: auto;
+}
+
+
+
